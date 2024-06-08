@@ -22,4 +22,4 @@ app.use('/api/pets',petsRouter);
 app.use('/api/adoptions',adoptionsRouter);
 app.use('/api/sessions',sessionsRouter);
 
-app.listen(PORT,()=>console.log(`Listening on ${PORT}, UPDATED TO DEVELOP!!! yes`))
+app.listen(PORT,()=>console.log(`Listening on ${PORT}, UPDATED TO QA!!! yes`))
